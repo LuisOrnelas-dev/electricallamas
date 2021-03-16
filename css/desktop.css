@@ -1,0 +1,124 @@
+.filaprincipal{
+    margin-bottom: 5rem;
+  }
+  .fila{
+    width: 50%;
+    text-align: center;
+  }
+  .filasserv{
+    width:60%;
+  }
+  .imagenfila1{
+    width: 40%;
+  }
+  h2.fila2{
+    color:black;
+    text-align: center;
+    
+  }
+  p.fila2{
+    font-size: 1.2rem;
+  }
+  .fila2{
+    width: 45%;
+    text-align: left;
+    margin-bottom: 3rem;
+  }
+  .empresa{
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin-top: 5rem;
+  }
+  .filanosotros{
+    width:60%;
+  }
+  .mapa{
+    width: 35%;
+  }
+  #mapalabel{
+    font-size: 0;
+  }
+  
+.colfoot{
+  width:33%;
+}
+.colfootfinal{
+  width:100%;
+}
+ul {
+  width:100%;
+  margin-bottom: 0%;
+  list-style: none;
+}
+ nav ul li {
+  margin: 0.2rem; 
+  display: inline;
+}
+nav ul a {
+  margin: 0.4rem; 
+  color: rgb(46, 116, 28);
+  font-weight: bold;
+  display: inline;
+  text-decoration: none;
+} 
+
+.logos{
+  width:30%;
+  color:white;
+  display: inline;
+  text-align: center;
+  font-size: 2.5rem; 
+  
+}
+
+.servicios{
+  width:70%;
+  display: inline;
+  text-align: left;
+  font-size: 1.6rem;
+}
+.header-logo {
+  width: 6rem; 
+  background: transparent;
+  display:inline;
+}
+.textoheader{
+  position: absolute;
+  top: 30%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  width:90%;
+  text-align: center;
+  font-size: 5.5rem; 
+  font-weight: 300;
+  transition: font-size 0.4s linear;
+}
+
+.textoheader2{
+  position: absolute;
+  top: 58%; 
+  left: 50%;
+  width:90%; 
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2.0rem; 
+  font-weight: 100;
+  text-align: center;
+  transition: font-size 0.4s linear;
+}
+.navbar2{
+  display:flex;
+  flex-wrap: wrap;
+  background:white;
+  width: 100%;
+  height: 5.5rem;  
+  position:fixed;
+  transition: background-color 1s linear;
+  z-index: 11;
+}
+.contenido .btn-btn-info{
+  top: 75%;
+
+}

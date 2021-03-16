@@ -1,0 +1,87 @@
+.fila{
+    width: 50%;
+    text-align: center;
+  }
+  .filasserv{
+    width:100%;
+  }
+
+ 
+  .fila2{
+    width: 45%;
+    text-align: left;
+    margin-bottom: 3rem;
+  }
+
+  #mapalabel{
+    width:100%
+  }
+
+  .empresa{
+    display:flex;
+    flex-wrap: wrap;
+    width:80%;
+    margin-top: 5rem;
+  }
+  .filaprincipal{
+    margin-bottom: 4rem;
+  }
+  nav ul li {
+    margin: 0.3rem; 
+    display: inline;
+  }
+  nav ul a {
+    margin: 0.6rem; 
+    color: rgb(46, 116, 28);
+    font-weight: bold;
+    display: inline;
+    text-decoration: none;
+  } 
+  .logos{
+    width:80%;
+    color:white;
+    display: inline;
+    text-align: center;
+    font-size: 1.5rem; 
+    margin:0 auto;
+  }
+  .navbar2{
+    height: 6.0rem;  
+    position:fixed;
+    transition: background-color 1s linear;
+    z-index: 11;
+  }
+  .servicios{
+    width:90%;
+    display: inline;
+    text-align: center;
+    font-size: 1.3rem;
+    margin:0 auto;
+  }
+  .header-logo {
+    width: 4rem; 
+    background: transparent;
+    display:inline;
+  }
+.textoheader{
+  position: absolute;
+  top: 30%; 
+  width:90%;
+  text-align: center;
+  font-size: 4.0rem; 
+  font-weight: 300;
+  transition: font-size 0.4s linear;
+}
+
+.textoheader2{
+  position: absolute;
+  top: 58%; 
+  left: 50%;
+  width:90%; 
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2.0rem; 
+  font-weight: 100;
+  text-align: center;
+  transition: font-size 0.4s linear;
+}

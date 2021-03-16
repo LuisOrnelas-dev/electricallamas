@@ -137,31 +137,32 @@
     © Copyright 2021 | Proyección Eléctrica Llamas | Todos los derechos reservados.
     </div>
   </footer> 
-    <!-- Load Facebook SDK for JavaScript -->
-  <div id="fb-root"></div>
-  <script>
-    window.fbAsyncInit = function() {
-      FB.init({
-        xfbml            : true,
-        version          : 'v10.0'
-      });
-    };
+   <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
 
-    (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
 
-  <!-- Your Chat Plugin code -->
-  <div class="fb-customerchat"
-    attribution="setup_tool"
-    page_id="103169146849174"
-logged_in_greeting="Hola, ¿En qué podemos ayudarte?"
-logged_out_greeting="Hola, ¿En qué podemos ayudarte?">
-  </div>
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution="setup_tool"
+        page_id="1171866779599392"
+  theme_color="#67b868"
+  logged_in_greeting="¡Buen día!, ¿En qué podemos servirte?"
+  logged_out_greeting="¡Buen día!, ¿En qué podemos servirte?">
+      </div>
     <!-- BOOTSTRAP JAVASCRIPT-->
     <script src=" https://code.jquery.com/jquery.min.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
